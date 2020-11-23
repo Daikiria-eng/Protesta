@@ -18,10 +18,10 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Switch>
-      <Route path="/sexto" component={Last}/>
+      <Route path="/sexto" component={Last} />
+        <Route path="/Quinto" component={Five} />
         <Route path="/cuarto" component={Four} />
         <Route path="/tercero" component={Third} />
-        <Route path="/Quinto" component={Five} />
         <Route path="/segundo" component={Second} />
         <Route exact path="/" component={Main} />
       </Switch>

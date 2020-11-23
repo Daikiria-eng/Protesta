@@ -28,7 +28,7 @@ class navbar extends Component {
                 <Link className="li" to="/cuarto">
                   <li>Sección tres</li>
                 </Link>
-                <Link clasName="li" to="/Quinto">
+                <Link className="li" to="/Quinto">
                   <li>Sección Cuatro</li>
                 </Link>
                 <Link to="/sexto">

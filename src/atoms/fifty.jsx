@@ -5,7 +5,7 @@ import Img from '../imgs';
 function fifty() {
     return (
         <>
-            < div className="box" >
+            <div className="box">
                 <h1>Más increíble aún</h1>
                 <h2>Ya existen diferentes formas de persuación,
                 que invitana que esta situacíon cambie; no obstante,
