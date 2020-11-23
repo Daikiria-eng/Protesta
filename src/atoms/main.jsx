@@ -1,5 +1,8 @@
 import React from 'react';
-import Imgs from '../imgs';
+import Thirt from '../assets/13.jpg';
+import Fourt from '../assets/14.jpg';
+import Four from '../assets/4.jpg';
+import Twentyseven from '../assets/29.jpg';
 import {Link} from 'react-router-dom';
 
 function main(){
@@ -13,10 +16,10 @@ function main(){
                 el asunto. Y aquí es donde radica el problema, tenemos que hacer consciencia
                 antes de que sea demasiado tarde</h4> 
                 <div className="fbox">
-                    <img src={Imgs[13].img} id="fimgs" alt="imagen"/>
-                    <img src={Imgs[14].img} id="fimgs" alt="imagen"/>
-                    <img src={Imgs[4].img} id="fimgs" alt="imagen"/>
-                    <img src={Imgs[27].img} id="fimgs" alt="imagen"/>
+                    <img src={Thirt} id="fimgs" alt="imagen"/>
+                    <img src={Fourt} id="fimgs" alt="imagen"/>
+                    <img src={Four} id="fimgs" alt="imagen"/>
+                    <img src={Twentyseven} id="fimgs" alt="imagen"/>
                 </div>
                 <Link to="/segundo">
                     <center><button>Siguiente</button></center>

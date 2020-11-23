@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../style.css';
-import Imgs from '../imgs';
+import Logo from '../assets/iesadep.jpg';
 import { Link } from 'react-router-dom';
 
 class navbar extends Component {
@@ -14,7 +14,7 @@ class navbar extends Component {
             <nav className="bar">
               <ul id="items">
                 <Link className="li" to="/">
-                  <li id="image_RANK"><img src={Imgs[0].img} alt="I.E SAdeP" id="navLogo" /></li>
+                  <li id="image_RANK"><img src={Logo} alt="I.E SAdeP" id="navLogo" /></li>
                 </Link>
                 <Link className="li" to="/">
                   <li>Home</li>

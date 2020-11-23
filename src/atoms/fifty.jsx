@@ -1,6 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Img from '../imgs';
+import Sevent from '../assets/17.JPG';
+import Th from '../assets/32.jpg';
+import Tho from '../assets/33.jpg';
+import Tht from '../assets/34.jpg';
+import Thth from '../assets/35.jpg';
+import Thf from '../assets/36.jpg';
+import Thfv from '../assets/37.jpg';
 
 function fifty() {
     return (
@@ -13,14 +19,13 @@ function fifty() {
                 de este crimen.</h2>
                 <h3>Pero aún estamos a tiempor de que esto cambie</h3>
                 <div className="imgs">
-                    <img src={Img[17].img} alt="imgagen" className="simg" />
-                    <img src={Img[28].img} alt="imgagen" className="simg" />
-                    <img src={Img[29].img} alt="imgagen" className="simg" />
-                    <img src={Img[30].img} alt="imgagen" className="simg" />
-                    <img src={Img[31].img} alt="imgagen" className="simg" />
-                    <img src={Img[32].img} alt="imgagen" className="simg" />
-                    <img src={Img[34].img} alt="imgagen" className="simg" />
-                    <img src={Img[35].img} alt="imgagen" className="simg" />
+                    <img src={Sevent} alt="imgagen" className="simg" />
+                    <img src={Th} alt="imgagen" className="simg" />
+                    <img src={Tho} alt="imgagen" className="simg" />
+                    <img src={Tht} alt="imgagen" className="simg" />
+                    <img src={Thth} alt="imgagen" className="simg" />
+                    <img src={Thf} alt="imgagen" className="simg" />
+                    <img src={Thfv} alt="imgagen" className="simg" />
                 </div>
                 <div className="buttons">
                     <Link to="/">

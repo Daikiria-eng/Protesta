@@ -1,5 +1,5 @@
 import React from 'react';
-import Img from '../imgs';
+import Logo from '../assets/iesadep.jpg';
 
 function final(){
     return(
@@ -7,7 +7,7 @@ function final(){
             <div className="box">
                 <h1>Cuidar el medio mabiente</h1>
                 <h2>Es ahora nuestro objetivo</h2>
-                <center><img src={Img[0].img} alt="iesadep" className="simg"/></center>
+                <center><img src={Logo} alt="iesadep" className="simg"/></center>
             </div>
         </>
     )

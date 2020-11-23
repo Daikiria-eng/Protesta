@@ -1,5 +1,10 @@
 import React from 'react';
-import Imgs from '../imgs';
+import Three from '../assets/3.jpg';
+import Seven from '../assets/7.jpg';
+import Eight from '../assets/8.jpg';
+import Ten from '../assets/10.jpg';
+import Six from '../assets/6.jpg';
+import Sevt from '../assets/17.JPG';
 import { Link } from 'react-router-dom';
 
 function sc() {
@@ -13,12 +18,12 @@ function sc() {
                 <p>Hay personas que se dan cuenta de esto, y expresan
                 su opinión al respecto</p>
                 <div className="imgs">
-                    <img src={Imgs[3].img} alt="imagen" className="simg" />
-                    <img src={Imgs[7].img} alt="imagen" className="simg" />
-                    <img src={Imgs[8].img} alt="imagen" className="simg" />
-                    <img src={Imgs[10].img} alt="imagen" className="simg" />
-                    <img src={Imgs[6].img} alt="imagen" className="simg" />
-                    <img src={Imgs[17].img} alt="imagen" className="simg" />
+                    <img src={Three} alt="imagen" className="simg" />
+                    <img src={Seven} alt="imagen" className="simg" />
+                    <img src={Eight} alt="imagen" className="simg" />
+                    <img src={Ten} alt="imagen" className="simg" />
+                    <img src={Six} alt="imagen" className="simg" />
+                    <img src={Sevt} alt="imagen" className="simg" />
                 </div>
                 <div className="buttons">
                     <Link to="/">

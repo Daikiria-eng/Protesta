@@ -1,5 +1,10 @@
 import React from 'react';
-import Img from '../imgs';
+import One from '../assets/1.jpg';
+import Two from '../assets/2.jpg';
+import Five from '../assets/5.jpg';
+import Nine from '../assets/9.jpg';
+import Elv from '../assets/11.jpg';
+import Twl from '../assets/12.jpg';
 import {Link} from 'react-router-dom';
 
 function td(){
@@ -12,12 +17,12 @@ function td(){
                 piensa "Una basura más, no hará la diferencia" y más de mil personas
                 lo pensaron también</h4> 
                 <div className="tbox">
-                    <img alt="imagen" src={Img[1].img} className="simg" />
-                    <img alt="imagen" src={Img[2].img} className="simg" />
-                    <img alt="imagen" src={Img[5].img} className="simg" />
-                    <img alt="imagen" src={Img[9].img} className="simg" />
-                    <img alt="imagen" src={Img[11].img} className="simg" />
-                    <img alt="imagen" src={Img[12].img} className="simg" />
+                    <img alt="imagen" src={One} className="simg" />
+                    <img alt="imagen" src={Two} className="simg" />
+                    <img alt="imagen" src={Five} className="simg" />
+                    <img alt="imagen" src={Nine} className="simg" />
+                    <img alt="imagen" src={Elv} className="simg" />
+                    <img alt="imagen" src={Twl} className="simg" />
                 </div>                
                 <div className="buttons">
                     <Link to="/segundo">
